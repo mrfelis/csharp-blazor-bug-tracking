@@ -4,31 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Content Remove="Pages\NewBug.razor" />
-    <Content Remove="Shared\LeftNav.razor" />
-  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Components\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Shared\LeftNav.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <_ContentIncludedByDefault Remove="Pages\NewBug.razor" />
-    <_ContentIncludedByDefault Remove="Shared\LeftNav.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Pages\NewBug.razor" />
-    <None Include="Shared\LeftNav.razor" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\NewBug.razor" />
   </ItemGroup>
 
 </Project>
